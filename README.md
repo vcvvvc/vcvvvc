@@ -58,8 +58,6 @@
 ![Dogecoin](https://img.shields.io/badge/dogecoin-B59A30?style=for-the-badge&logo=dogecoin&logoColor=white)
 ![Bitcoin Cash](https://img.shields.io/badge/Bitcoin%20Cash-0AC18E?style=for-the-badge&logo=Bitcoin%20Cash&logoColor=white) 
  
-[![Doubler](img/dbr1.png "Doubler")](https://testnet.doubler.pro/)   *AND*  [![TEA](img/tea1.png "TEA")](https://tea.xyz/)
-
 - *BTC: **bc1psslnqgerdv9cjcedf4884j20g0knc2qk80jcz8yl4emnc89u6wjq2uezcy***
   
 - *EVM: **0xAC637cD97c2CCD38816777C250aC844A6A1C2d12***
