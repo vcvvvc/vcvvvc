@@ -39,6 +39,7 @@
 ![Github](https://img.shields.io/badge/-Github-181717?logo=Github&style=for-the-badge&logoColor=white)
 ![Vercel](https://img.shields.io/badge/-vercel-000000?logo=Vercel&style=for-the-badge&logoColor=white)
 ![MYSQL](https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
 
 </details>
 
