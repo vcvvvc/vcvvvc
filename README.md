@@ -1,5 +1,5 @@
 
- <img src="img/nature-horizon-wilderness-mountain.jpg" width = "1280" height = "320" alt="sun" align=center />
+ <img src="img/sun.jpg" width = "1280" height = "320" alt="sun" align=center />
 
 ## Welcome :face_in_clouds: 
 
