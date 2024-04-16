@@ -47,7 +47,17 @@
 <details>
   <summary><b>Stats</b></summary>
 
-![6923403's github stats](https://github-readme-stats.vercel.app/api?username=vcvvvc&show_icons=true&theme=dracula)
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=vcvvvc&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=vcvvvc&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
 
 </details>
 
@@ -61,15 +71,15 @@
 ![Dogecoin](https://img.shields.io/badge/dogecoin-B59A30?style=for-the-badge&logo=dogecoin&logoColor=white)
 ![Bitcoin Cash](https://img.shields.io/badge/Bitcoin%20Cash-0AC18E?style=for-the-badge&logo=Bitcoin%20Cash&logoColor=white) 
  
-- *BTC: **bc1psslnqgerdv9cjcedf4884j20g0knc2qk80jcz8yl4emnc89u6wjq2uezcy***
+- *BTC: **bc1pw457avwwlj9v2zmtztgk0uwzg3ju326v7vfd0xpsqshygymqtuvq9j0jvx***
   
-- *EVM: **0xAC637cD97c2CCD38816777C250aC844A6A1C2d12***
+- *EVM: **0x672aebc7423c1bd8e561382a26008b16ca97727f***
   
-- *SOL: **3KDiEwQiXVR1c9puAhMSNbwHx2LbdKoQgagy7M6VuxCK***
+- *SOL: **FaSD5CQA8pJe4tiUdyYtADrTFLA9igmrRpE17LQ7WXy9***
 
-- *DOGE: **DFw9KiiojkSGuAKuQnNWx4ffej3cuBv1m2***
+- *DOGE: **DFmk5jyCWCq6FJX59tvuhuD6FdUzi1P5Lu***
 
-- *BCH: **qzrurpnd84u63d90r3scr8ydp25gpc0kjv8gydha7l***
+- *SUI: **0xa8ea012a9b0996c5a03b11e4e6d80e73ad210a02febd292c2243913eed7d01aa***
 
 </details>
 
