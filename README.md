@@ -67,19 +67,12 @@
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF.svg?style=for-the-badge&logo=Solana&logoColor=white)
-
-![Dogecoin](https://img.shields.io/badge/dogecoin-B59A30?style=for-the-badge&logo=dogecoin&logoColor=white)
-![Bitcoin Cash](https://img.shields.io/badge/Bitcoin%20Cash-0AC18E?style=for-the-badge&logo=Bitcoin%20Cash&logoColor=white) 
  
 - *BTC: **bc1pw457avwwlj9v2zmtztgk0uwzg3ju326v7vfd0xpsqshygymqtuvq9j0jvx***
   
 - *EVM: **0x672aebc7423c1bd8e561382a26008b16ca97727f***
   
 - *SOL: **FaSD5CQA8pJe4tiUdyYtADrTFLA9igmrRpE17LQ7WXy9***
-
-- *DOGE: **DFmk5jyCWCq6FJX59tvuhuD6FdUzi1P5Lu***
-
-- *SUI: **0xa8ea012a9b0996c5a03b11e4e6d80e73ad210a02febd292c2243913eed7d01aa***
 
 </details>
 
