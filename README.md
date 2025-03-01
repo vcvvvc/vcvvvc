@@ -68,11 +68,11 @@
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF.svg?style=for-the-badge&logo=Solana&logoColor=white)
  
-- *BTC: **bc1pw457avwwlj9v2zmtztgk0uwzg3ju326v7vfd0xpsqshygymqtuvq9j0jvx***
+- *BTC: **bc1pezxm6pghydty9jvnxsdj3cyu0jkm42t85r2fylhfv6pv5dujzx7ql3fqqn***
   
-- *EVM: **0x672aebc7423c1bd8e561382a26008b16ca97727f***
+- *EVM: **0xe647f040ae6c2076914bb89573e64cb8a1de4e73***
   
-- *SOL: **FaSD5CQA8pJe4tiUdyYtADrTFLA9igmrRpE17LQ7WXy9***
+- *SOL: **57dYzHcDbPxhbYLV7Lygd1D9B4tEhdhLyfAz9J7DSFqf***
 
 </details>
 
