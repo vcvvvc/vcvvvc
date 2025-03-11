@@ -49,6 +49,8 @@
 <details>
   <summary><b>Stats</b></summary>
 
+![](https://komarev.com/ghpvc/?username=vcvvvc&color=orange)
+
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=vcvvvc&show_icons=true&theme=dark"
