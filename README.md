@@ -8,6 +8,7 @@
 <details>
   <summary><b>Skills</b></summary>
 
+****
 ![C++](https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white)
 ![Python](https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
@@ -26,6 +27,7 @@
 <details>
   <summary><b>OS & Tools</b></summary>
 
+****
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=Linux&style=for-the-badge&logoColor=black)
 ![Mac_OS](https://img.shields.io/badge/-Mac_OS-999999?logo=Apple&style=for-the-badge&logoColor=white)
 
@@ -49,6 +51,7 @@
 <details>
   <summary><b>Stats</b></summary>
 
+****
 ![](https://komarev.com/ghpvc/?username=vcvvvc&color=orange)
 
 <picture>
@@ -68,6 +71,7 @@
 <details>
   <summary><b>Web3</b></summary>
  
+ ****
 ![Bitcoin](https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white)
 ![Solana](https://img.shields.io/badge/Solana-9945FF.svg?style=for-the-badge&logo=Solana&logoColor=white)
