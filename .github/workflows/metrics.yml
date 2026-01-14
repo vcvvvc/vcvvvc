@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Default metrics
-        uses: vcvvvc/metrics@latest
+        uses: vcvvvc/metrics@master
         with:
           config_timezone: Asia/Tokyo
           filename: img/metrics.base.svg
