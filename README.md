@@ -54,17 +54,7 @@
 ****
 ![](https://komarev.com/ghpvc/?username=vcvvvc&color=orange)
 
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=vcvvvc&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=vcvvvc&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats-agv.vercel.app/api?username=vcvvvc&show_icons=true" />
-</picture>
+![GitHub stats](https://github-readme-stats-agv.vercel.app/api?username=vcvvvc&show_icons=true&theme=radical)
 
 </details>
 
