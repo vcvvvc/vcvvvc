@@ -16,7 +16,7 @@ jobs:
     steps:
       # 1. 生成基础信息 (Base Stats)
       - name: Generate Base Metrics
-        uses: vcvvvc/metrics@master
+        uses: vcvvvc/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: img/metrics.base.svg
