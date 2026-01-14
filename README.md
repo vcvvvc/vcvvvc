@@ -52,9 +52,9 @@
   <summary><b>Stats</b></summary>
 
 ****
-![](https://komarev.com/ghpvc/?username=vcvvvc&color=orange)
 
-![GitHub stats](https://github-readme-stats-agv.vercel.app/api?username=vcvvvc&show_icons=true&theme=radical)
+![GitHub stats](https://github-readme-stats-agv.vercel.app/api?username=vcvvvc&show_icons=true&theme=transparent)
+
 
 </details>
 
