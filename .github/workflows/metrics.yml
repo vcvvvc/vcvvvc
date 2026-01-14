@@ -1,33 +1,41 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics
+name: Default metrics
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 7 * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  schedule:
+    # 每天凌晨 01:00 (UTC) 运行，即北京时间 09:00
+    - cron: '0 1 * * *'
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+  push:
+    branches: ["main"]
+
 jobs:
-  github-metrics:
+  build-metrics:
+    name: Build Metrics
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: vcvvvc/metrics@master
+      # 1. 生成基础信息 (Base Stats)
+      - name: Generate Base Metrics
+        uses: vcvvvc/metrics@master
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
-          user: vcvvvc
-          template: classic
-          base: header, activity, community, repositories, metadata
+          filename: img/metrics.base.svg
           config_timezone: Asia/Shanghai
+          
+          # 基础内容配置
+          base: header, activity, community, repositories, metadata
+          
+      # 2. 生成全年日历 (Full Year Calendar)
+      - name: Generate Isocalendar
+        uses: vcvvvc/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: img/metrics.calendar.svg
+          config_timezone: Asia/Shanghai
+          
+          # 设为""表示不生成基础信息，只生成日历
+          base: ""
+          
+          # 启用日历插件并设置为全年
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
