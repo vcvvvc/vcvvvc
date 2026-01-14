@@ -11,6 +11,7 @@ jobs:
   build-metrics:
     name: Build Metrics
     runs-on: ubuntu-latest
+    environment: hub_metrics
     permissions:
       contents: write
     steps:
