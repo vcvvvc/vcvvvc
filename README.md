@@ -55,6 +55,11 @@
 
 ![GitHub stats](https://github-readme-stats-agv.vercel.app/api?username=vcvvvc&show_icons=true&theme=transparent)
 
+<div align="center">
+  <img src="img/metrics.base.svg" alt="Metrics" width="100%">
+  <br>
+  <img src="img/metrics.calendar.svg" alt="Calendar" width="100%">
+</div>
 
 </details>
 
