@@ -47,13 +47,10 @@
 
 </details>
 
-
 <details>
-  <summary><b>Stats</b></summary>
+  <summary><b>Metrics</b></summary>
 
 ****
-
-![GitHub stats](https://github-readme-stats-agv.vercel.app/api?username=vcvvvc&show_icons=true&theme=transparent)
 
 <div align="center">
   <img src="img/metrics.base.svg" alt="Metrics" width="100%">
