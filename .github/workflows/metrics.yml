@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       - name: Default metrics
-        uses: lowlighter/metrics@latest
+        uses: vcvvvc/metrics@latest
         with:
           config_timezone: Asia/Tokyo
           filename: metrics.base.svg
