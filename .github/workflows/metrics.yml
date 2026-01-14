@@ -1,7 +1,7 @@
 name: Default metrics
 on:
   schedule: # Run workflow automatically
-    - cron: '0 20 5 * *' # Runs every hour, on the hour
+    - cron: '0 20 3 30 *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the GitHub Actions Workflow page directly
   push: {branches: ["master", "main"]}
 
@@ -16,6 +16,6 @@ jobs:
         uses: vcvvvc/metrics@latest
         with:
           config_timezone: Asia/Tokyo
-          filename: metrics.base.svg
+          filename: img/metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: header, activity, community, repositories, metadata
