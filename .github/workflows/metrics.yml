@@ -1,7 +1,6 @@
 name: Default metrics
 on:
   schedule:
-    # 每天 UTC 01:00 (北京时间 09:00) 运行
     - cron: '0 0 * * *'
   workflow_dispatch:
   push:
@@ -15,28 +14,27 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. 生成基础信息 (Base Stats)
+      - uses: actions/checkout@v5
+
       - name: Generate Base Metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: img/metrics.base.svg
           config_timezone: Asia/Shanghai
-          
-          # 基础内容配置
           base: header, activity, community, repositories, metadata
-          
-      # 2. 生成全年日历 (Full Year Calendar)
-      - name: Generate Isocalendar
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: img/metrics.calendar.svg
-          config_timezone: Asia/Tokyo
-          
-          # 设为""表示不生成基础信息，只生成日历图片
-          base: ""
-          
-          # 启用日历插件并设置为全年
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+
+
+      - name: Generate 3D Contribution Profile
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          git commit -m "generated 3d contribution profile" || echo "No changes to commit"
+          git push
