@@ -25,16 +25,16 @@ jobs:
           base: header, activity, community, repositories, metadata
 
       - name: Generate 3D Contribution Profile
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & Push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add -A .
-          git commit -m "generated 3d contribution profile" || echo "No changes to commit"     
-          git pull --rebase origin main          
-          git push
+          if git commit -m "generated"; then
+            git push
+          fi
