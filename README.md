@@ -55,7 +55,7 @@
 <div align="center">
   <img src="img/metrics.base.svg" alt="Metrics" width="100%">
   <br>
-  <img src="img/metrics.calendar.svg" alt="Calendar" width="100%">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="Calendar" width="100%">
 </div>
 
 </details>
